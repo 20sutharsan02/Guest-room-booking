@@ -1,0 +1,65 @@
+/* Footer.css */
+
+.footer {
+  background-color: #06666668; /* Black background */
+  color: gold; /* Gold text color */
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(243, 184, 8, 0.621);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+}
+/* Add more styles based on your design */
+/* navbar */
+/* Navbar.css */
+
+
+/* Add more styles based on your design */
+/* Navbar styling */
+.navbar {
+  background-color: rgba(85, 21, 21, 0.097); /* Black background */
+  padding: 15px 0px;
+  color: rgb(239, 238, 233); /* Gold text color */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: rgb(229, 8, 8);
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(250, 249, 246, 0.8); /* Glowing effect */
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #ff0077; /* Change color on hover */
+}
+

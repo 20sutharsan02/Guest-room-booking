@@ -1,0 +1,276 @@
+.firstclass
+{
+background-color: rgb(4, 251, 251);
+
+img {
+    height: 100px;
+    width: 70px;
+
+}
+h1 {
+    right: 20%;
+
+}
+}
+.customPopup {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: aqua;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  
+  .popupContent {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color:rgb(152, 140, 140);
+    border: 2px solid white;
+    border-radius: 5px ;
+    text-align: left;
+    /* color: rgb(72, 0, 255); */
+    
+  }
+  .butt
+  {
+    justify-content: space-between;
+    margin-right:16px;
+    /* margin-left: 50px; */
+  }
+.boxc
+{
+  margin: 50px;
+  padding: 60px 50px;
+  border: 2px solid;
+  height: 50px;
+  width: 60px;
+  border-radius: 20px red;
+}
+.cont
+{
+  text-align: center;
+  background-color: rgb(129, 83, 172);
+ 
+}
+.textcl
+{
+  color: rgb(203, 244, 244);
+}
+.button
+{
+  font-size: 2em;
+  justify-content: space-evenly;
+  background-color: rgb(129, 83, 172);
+  color: rgb(231, 224, 216); 
+  border: 2px solid rgb(253, 251, 251);
+  margin-bottom: 9px;
+  
+}
+.bui-cont
+{
+  margin: 20px;
+}
+.bui
+{
+  margin: 20px;
+}
+.imgpost
+{
+  margin: 50px;
+  padding: 60px 50px;
+  background-color: aqua;
+ 
+  border: 5px solid ;
+  border-radius: 20px;
+  right:-10%;
+
+}
+.container
+{
+    
+  padding: 20px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow-y: scroll;
+  height:660px;
+  transform: translateZ(0); 
+overflow: hidden;
+
+}
+
+/* Background with dragon image */
+body {
+  background-image: linear-gradient(120deg, #60a23c, #00ff91, #0099ff); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Open Sans", sans-serif;
+  color: gold; /* Text color */
+}
+
+/* Header */
+.mma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
+  color: rgb(253, 253, 253); /* Text color */
+}
+
+.mma h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #f5efef;
+  text-shadow: 2px 2px 4px #89b03b; 
+}
+
+
+
+.addbutton:hover {
+  background-color: #0b8429; /* Darker red on hover */
+}
+
+
+
+/* Card styles */
+
+
+.con1-box:hover {
+  transform: translateY(-10px); /* Lift the card on hover */
+}
+
+.con1-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.con1-box h1 {
+  margin-top: 10px;
+  font-size: 2em; /* Adjust font size */
+  color: #d5621b;
+  text-shadow: 1px 1px 2px #c22828;
+}
+
+  .con1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .con1-box {
+    border: 1px solid #ddd; /* Use a lighter border color */
+    border-radius: 10px; /* Smoothen the edges */
+    padding: 20px;
+    background-color: #c3b4b4; /* White background */
+    width: calc(32% - 20px); /* Adjust width to fit better */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+  }
+  
+  /* Hover effect */
+  .con1-box:hover {
+    transform: translateY(-15px); /* Lift the card on hover */
+  }
+  
+  .con1-box img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Smoothen the edges */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle image shadow */
+  }
+  
+
+.kk img{
+  height: 50%;
+  width: 50% ;
+  
+}
+.addbutton
+{
+  background-color: #3498db; /* Replace with your desired color code or name */
+  font-weight: bold;
+  font-size: 2em;
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add some border radius for a rounded button */
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+.addbutton1
+{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #3498db; /* Replace with your desired color code or name */
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add some border radius for a rounded button */
+  cursor: pointer; 
+}
+.mbutton{
+  
+  justify-content: space-evenly;
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.label{
+  color: brown;
+  font-size: 2em;
+}
+body {
+  /* background-image: linear-gradient(135deg, #FAB2FF 10%, #04e5c3 100%); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Open Sans", sans-serif;
+  color: #a62c2c;
+  /* margin-top: 50px; */
+}
+/* add pic  */
+.customPopup1 {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: aqua;
+  z-index: 2;
+  background-color: rgba(42, 33, 33, 0.5); /* Semi-transparent background */
+}
+
+.popupContent1 {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color:rgb(152, 140, 140);
+  border: 2px solid white;
+  border-radius: 5px ;
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+  /* color: rgb(72, 0, 255); */
+  
+}
